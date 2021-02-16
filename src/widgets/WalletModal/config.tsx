@@ -3,7 +3,7 @@ import MathWallet from "./icons/MathWallet";
 import TokenPocket from "./icons/TokenPocket";
 import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
-import BinanceChain from "./icons/BinanceChain";
+import OkexChain from "./icons/OkexChain";
 import { Config } from "./types";
 
 const connectors: Config[] = [
@@ -33,8 +33,8 @@ const connectors: Config[] = [
     connectorId: "walletconnect",
   },
   {
-    title: "Binance Chain Wallet",
-    icon: BinanceChain,
+    title: "Okex Chain Wallet",
+    icon: OkexChain,
     connectorId: "bsc",
   },
 ];
